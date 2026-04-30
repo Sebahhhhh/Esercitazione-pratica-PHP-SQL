@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: monospace;
+    margin: 20px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 22px;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    border: 1px solid;
+    padding: 4px;
+    font-family: monospace;
+    font-size: 14px;
+    width: 280px;
+    margin-top: 3px;
+}
+
+button,
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.btn-restituisci {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid;
+    padding: 3px 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-restituisci:hover {
+    background-color: #f0f0f0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 6px;
+    text-align: left;
+}
+.msg-ok,
+.msg-err {
+    border: 1px solid;
+    padding: 8px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
